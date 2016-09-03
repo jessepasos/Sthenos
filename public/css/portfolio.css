@@ -1,0 +1,70 @@
+body {
+    padding-top: 25px;
+}
+
+.sketch-container {
+    padding: 25px 15px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+#draw-canvas {
+    border: 1px solid #858585;
+    border-radius: 25px;
+    margin: 35px;
+}
+
+.colour-selection {
+    width: 25px;
+    height: 25px;
+    margin: 10px auto;
+}
+
+.size-selection {
+    height: 25px;
+    font-size: 10px;
+    margin: 10px auto;
+}
+
+
+/*
+.show-tell #header-image {
+    background: #ffffff url("{{asset('/public/images/show-tell-header1.jpg')}}") no-repeat right top;
+}*/
+
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: #aaa;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+}
+
+.hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.tab-row {
+    margin: 15px 0;
+}
+
+#custom_Size {
+    width: 335px;
+}

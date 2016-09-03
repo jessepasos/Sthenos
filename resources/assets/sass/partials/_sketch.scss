@@ -1,0 +1,95 @@
+$colourGrape: #94618E;
+$colourEggplant: #49274A;
+$colourSand: #F4DECB;
+$colourShell: #F8EEE7;
+$colorGray: #bababa;
+$colourPaleShell: #fcf8f5;
+
+.sketch-body {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+    background: #ffffff;
+    background: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 88%, #000000 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #ffffff), color-stop(88%, #ffffff), color-stop(100%, #000000));
+    background: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 88%, #000000 100%);
+    background: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 88%, #000000 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #ffffff 88%, #000000 100%);
+    background: radial-gradient(ellipse at center, #ffffff 0%, #ffffff 88%, #000000 100%);
+    background-size: 10px 10px;
+}
+
+.container-sketch {
+    margin: 100px auto;
+    width: 600px;
+    .row {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .nav-tabs {
+        margin: 0;
+        border: 1px solid $colourEggplant;
+        border-bottom: 0;
+        width: 577px;
+        background: $colourGrape;
+        border-radius: 3px 3px 0 0;
+        li {
+            a {
+                text-align: center;
+                color: $colourSand;
+                border-radius: 0;
+                border: 0;
+                margin: 0;
+                height: 40px;
+                &:hover, &:focus {
+                    background: $colourEggplant;
+                    border: 0;
+                }
+            }
+            a.active {
+                background: $colourEggplant;
+                border: 0;
+            }
+            i {
+                margin: auto;
+                width: auto;
+                padding: 2px;
+            }
+        }
+        li.brand {
+            background: $colourEggplant;
+            color: $colourShell;
+            letter-spacing: 2.5px;
+            font-variant: small-caps;
+            text-align: center;
+            border-radius: 3px 0 0 0;
+        }
+        li.open {
+            background: $colourEggplant;
+            border: 0;
+        }
+    }
+    ul.dropdown-menu {
+        background: $colourPaleShell;
+        border-top: 1px solid $colourEggplant;
+    }
+    #draw-canvas {
+        margin: 0;
+        border: 1px solid $colourEggplant;
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+        background: #FFF;
+        cursor: url( 'http://localhost/laravel/public/images/pencil.svg' ), pointer;
+    }
+    .colour-selection {
+        width: 25px;
+        height: 25px;
+        margin: 10px auto;
+    }
+    .size-selection {
+        height: 25px;
+        font-size: 10px;
+        margin: 10px auto;
+    }
+}

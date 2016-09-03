@@ -1,0 +1,252 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/*
+ * dusty    #96858F
+ * lavendar #6D7993
+ * overcast #9099A2
+ * paper    #D5D5D5
+ */
+
+a {
+    color: #6D7993;
+}
+
+p {
+    font: 300 15px 'Raleway', serif, sans-serif;
+    color: #545454;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+li {
+    font: 300 15px 'Raleway', serif, sans-serif;
+    color: #545454;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.4;
+    letter-spacing: 0.5px;
+}
+
+li > i {
+    margin-right: 10px;
+    width: 15px;
+    text-align: center;
+}
+
+.btn-primary {
+    background: #96858F;
+    border: #4b4247;
+}
+
+.btn-primary:hover {
+    background: #4b4247;
+}
+
+.container-folio {
+    margin: 150px auto;
+}
+
+#portfolio-container {
+    max-width: 500px;
+    margin: auto;
+}
+
+#skills-row {
+    padding: 55px 0;
+    background: #D5D5D5;
+}
+
+#contact-row {
+    padding: 35px 0;
+    background: #D5D5D5;
+}
+
+#footer {
+    padding: 35px 0;
+    background: #9099A2;
+}
+
+.skill-panel .panel {
+    margin: 10px;
+}
+
+.skill-panel .page-header {
+    margin-top: 0;
+}
+.exp-area strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.contact-info {
+    margin: 45px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-info ul {
+    margin: 50px auto;
+}
+
+
+.logo {
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 0 0 0 ;
+    letter-spacing: 8px;
+    color: #6D7993;
+}
+
+.logo small {
+    letter-spacing: 2px;
+    color: #96858F;
+}
+
+.page-header {
+    letter-spacing: 4px;
+}
+
+p {
+    font-size: 15px;
+}
+
+/* Side Menu */
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    transform: translateX(50px);
+    overflow-y: auto;
+    background: #222;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar-nav li {
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sidebar-nav li a {
+    display: block;
+    text-decoration: none;
+    color: #999;
+}
+
+.sidebar-nav li a:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgba(255,255,255,0.2);
+}
+
+.sidebar-nav li a:active,
+.sidebar-nav li a:focus {
+    text-decoration: none;
+}
+
+.sidebar-nav > .sidebar-placeholder {
+    height: 45px;
+}
+
+.menu-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+#sidebar-wrapper.active {
+    right: 50px;
+    width: 50px;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -ms-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+}
+
+.toggle {
+    margin: 0;
+}
+
+
+
+a.socialIcon:hover, .socialHoverClass {
+    color:#9099A2;
+}
+
+.social-circle li a {
+    display:inline-block;
+    position:relative;
+    margin:0 auto 0 auto;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    text-align:center;
+    width: 50px;
+    height: 50px;
+    font-size:20px;
+}
+.social-circle li i {
+    margin:0;
+    line-height:50px;
+    text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.social-circle a {
+ background-color: #9099A2;
+}

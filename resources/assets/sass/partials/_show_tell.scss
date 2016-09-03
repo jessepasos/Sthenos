@@ -1,0 +1,86 @@
+$colourSky: #CAEBF2;
+$colourDarkSky: #8da4a9;
+$colourCarbon: #A9A9A9;
+$colourWatermelon: #FF3B3F;
+$colourDarkWatermelon: #b2292c;
+$colourNeutral: #EFEFEF;
+.show-tell {
+    a {
+        color: $colourWatermelon;
+        border: $colourDarkWatermelon;
+        &:hover {
+            color: $colourDarkWatermelon;
+            text-decoration: none;
+        }
+        .font-icon {
+            color: $colourDarkSky;
+            margin: 0;
+            width: auto;
+            padding: 0;
+            text-align: center;
+            &:hover {
+                color: $colourSky;
+                text-decoration: none;
+            }
+        }
+    }
+    #header-image {
+        padding-top: 150px;
+        background: #ffffff url("http://www.sthenos.net/public/images/show_tell.png") no-repeat left top;
+        background-size: cover;
+        h1 {
+            color: $colourNeutral;
+        }
+    }
+    .btn-primary, .label-primary {
+        background: $colourSky;
+        border: $colourDarkSky;
+        &:hover {
+            background: $colourDarkSky;
+        }
+    }
+    .btn-success, .label-success {
+        background: $colourWatermelon;
+        border: $colourDarkWatermelon;
+        &:hover {
+            background: $colourDarkWatermelon;
+            text-decoration: none;
+        }
+    }
+    .font-icon {
+        margin-left: 5px;
+        width: 10px;
+        text-align: center;
+    }
+    .login-or {
+        position: relative;
+        font-size: 18px;
+        color: #aaa;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .span-or {
+        display: block;
+        position: absolute;
+        left: 50%;
+        top: -2px;
+        margin-left: -25px;
+        background-color: #fff;
+        width: 50px;
+        text-align: center;
+    }
+    .hr-or {
+        background-color: #cdcdcd;
+        height: 1px;
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+    }
+    .tab-row {
+        margin: 15px 0;
+    }
+    #custom_Size {
+        width: 335px;
+    }
+}

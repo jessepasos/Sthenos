@@ -1,0 +1,36 @@
+$colourIvoryBlack: #1D2731;
+$colourGoldLeaf: #D9B310;
+$colourSkyBlue: #328CC1;
+$colourPrussianBlue: #0B3C5D;
+$colourGray: #9d9d9d;
+#portfolio-header {
+    a {
+        color: $colourSkyBlue;
+        &:hover {
+            color: $colourSkyBlue;
+            text-decoration: none;
+        }
+    }
+    .navbar-brand {
+        color: $colourGray;
+    }
+    #portfolio-info {
+        a.dropdown-toggle {
+            font-size: 20px;
+            text-align: center;
+            i {
+                color: #FFFFFF;
+                margin: auto;
+                width: auto;
+                padding: 2px;
+            }
+        }
+        ul {
+            width: 250px;
+            p {
+                margin: 10px;
+                text-align: justify;
+            }
+        }
+    }
+}
